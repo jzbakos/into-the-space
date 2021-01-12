@@ -164,12 +164,38 @@ hr.heading-divider {
 }
 
 #footer {
-  background-color: #39393b;
-  padding: 30px;
+  background-color: #3e3e42;
+  padding: 35px;
   color: white;
   margin-top: 150px;
 }
 
 #footer-content {
   width: 40%;
+}
+
+#social-links {
+  list-style: none;
+  padding-left: 0;
+  font-size: larger;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(197, 197, 197);
+}
+
+/* selected link */
+a:active {
+  color: rgb(197, 197, 197);
 }
