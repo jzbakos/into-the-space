@@ -167,6 +167,9 @@ hr.heading-divider {
   background-color: #39393b;
   padding: 30px;
   color: white;
-  /* height: 80px; */
   margin-top: 150px;
+}
+
+#footer-content {
+  width: 40%;
 }
