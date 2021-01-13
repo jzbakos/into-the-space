@@ -57,10 +57,17 @@ body {
   border: 6px solid rgb(218, 218, 218);
 }
 
-hr.title {
+hr.title-div {
   margin-top: 0;
   margin-bottom: 15px;
   color: rgb(145, 145, 145);
+}
+
+hr.subtitle-div {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: rgb(145, 145, 145);
+  width: 80%;
 }
 
 hr.heading-divider {
@@ -157,10 +164,26 @@ hr.heading-divider {
   text-transform: uppercase;
 }
 
+.subtitle-text {
+  font-size: 1.5;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .section {
-  padding-top: 110px;
+  padding-top: 130px;
+}
+
+.section p {
   font-size: 1.5em;
   text-align: justify;
+}
+
+.list-group {
+  width: 80% !important;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 #footer {
@@ -198,4 +221,9 @@ a:hover {
 /* selected link */
 a:active {
   color: rgb(197, 197, 197);
+}
+
+#programs {
+  font-size: large;
+  text-transform: uppercase;
 }
