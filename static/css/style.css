@@ -38,7 +38,7 @@ hr.subtitle-div {
 }
 
 #nav-list {
-  border-bottom: 1px solid rgb(138, 138, 138);
+  border-bottom: 1px solid rgb(179, 179, 179);
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -71,15 +71,12 @@ hr.subtitle-div {
 /* PREFACE */
 /***********/
 
-#profile {
+#logo {
   width: 100%;
-  border: 6px solid rgb(255, 255, 255);
-  border-radius: 50%;
 }
 
-#profile:hover {
+#logo:hover {
   filter: brightness(85%);
-  border: 6px solid rgb(218, 218, 218);
 }
 
 #preface {
@@ -100,56 +97,8 @@ hr.subtitle-div {
   height: 100%;
   width: 50%;
   min-width: 320px;
+  text-align: center;
   color: rgb(255, 255, 255);
-}
-
-#profile-mobile {
-  width: 70%;
-  min-width: 200px;
-  border: 5px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-@media (min-width: 500px) {
-  #profile-mobile {
-    display: none;
-  }
-
-  #title-mobile {
-    display: none;
-  }
-}
-
-@media (max-width: 499px) {
-  #preface {
-    min-width: 320px;
-    min-height: 100vh;
-    max-height: 100vh;
-    background-size: 50%;
-    width: 100%;
-    background: url("../img/forest.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-  }
-
-  #navbar {
-    display: none;
-  }
-
-  #profile {
-    display: none;
-  }
-
-  #title-landscape {
-    display: none;
-  }
 }
 
 /****************/
@@ -181,6 +130,21 @@ hr.subtitle-div {
   text-align: justify;
 }
 
+.quote {
+  font-size: 1.4em;
+  padding: 10px 0 10px 15px;
+  margin-top: 100px;
+  color: rgb(193, 135, 216);
+  text-align: left;
+  font-style: italic;
+  border-left: 5px solid rgb(193, 135, 216);
+}
+
+.quote p {
+  padding: 0;
+  margin: 0;
+}
+
 .list-group {
   width: 80% !important;
   font-size: 1em;
@@ -201,6 +165,11 @@ hr.subtitle-div {
 
 #footer-content {
   width: 40%;
+}
+
+#footer-logo {
+  margin-top: 20px;
+  width: 6em;
 }
 
 #social-links {
